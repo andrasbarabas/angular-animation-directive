@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+div {
+  font-size: 32px;
+  height: 64px;
+  position: relative;
+}
+
+.animation {
+  animation-name: slideIn;
+  animation-duration: 1500ms;
+  color: red;
+}
+
+@keyframes slideIn {
+  from {
+    left: 500px;
+  }
+
+  to {
+    left: 0;
+  }
+}
